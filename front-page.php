@@ -94,7 +94,7 @@ get_header();
 
       <div class="container">
         <div class="cta-container">
-          <h2 style="text-align: center">Contact us today<span style="color: #FFA904">!</span></h2>
+          <h2 style="text-align: center">Contact us today!</h2>
           <p style="text-align: center">To find out more about our full range of IT support services, call or message
             us today!</p>
           <div class="d-flex flex-column flex-lg-row" style="gap: 20px">

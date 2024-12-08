@@ -3,7 +3,11 @@
 
 // Adds dynamic title tag support
 function techsavvy_theme_support() {
-add_theme_support('title-tag');
+    add_theme_support('title-tag');
+    add_theme_support('custom-logo', array(
+        'flex-width'  => true,   // Allow width to grow/shrink
+        'flex-height' => true    // Allow height to grow/shrink
+    ));
 }
 add_action('after_setup_theme', 'techsavvy_theme_support');
 
@@ -42,9 +46,11 @@ add_action('init', 'techsavvy_menus');
 function mytheme_customize_register($wp_customize) {
     // Add a Customizer Section for home page header
     $wp_customize->add_section('header_text_section', array(
-        'title' => __('Homepage Header Text', 'mytheme'),
+        'title' => __('Homepage Text', 'mytheme'),
         'description' => __('Edit the text displayed on the homepage header image.'),
         'priority' => 30,
+
+        'active_callback' => 'is_front_page'
     ));
 
     // Add a Setting
@@ -55,10 +61,10 @@ function mytheme_customize_register($wp_customize) {
 
     // Add a Control
     $wp_customize->add_control('header_text_control', array(
-        'label' => __('Homepage Header Text', 'mytheme'),
+        'label' => __('Homepage Text', 'mytheme'),
         'section' => 'header_text_section',
         'settings' => 'header_text_setting',
-        'type' => 'text', // The input type, such as text, textarea, checkbox, etc.
+        'type' => 'text',
   ));
 
  // Add a Setting for Sub-header Text

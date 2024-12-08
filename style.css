@@ -24,6 +24,11 @@ Author: Joseph Newman
     padding: 0;
 }
 
+main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 body {
     font-family: 'roboto', 'Arial Narrow', Arial, sans-serif !important;
 }
@@ -74,7 +79,6 @@ nav a:hover {
 
 .navbar-nav {
     margin-left: auto !important;
-    gap: 25px;
 }
 
 .navbar-toggler {
@@ -118,8 +122,18 @@ nav a:hover {
 
 }
 
-#logo {
+
+
+.custom-logo {
     width: 300px;
+    /* Makes the logo responsive */
+    height: auto;
+}
+
+
+.custom-logo-link img {
+    max-width: 100%;
+    height: auto;
 }
 
 .video-container {
@@ -128,7 +142,6 @@ nav a:hover {
     height: 700px;
     background-color: black;
     overflow: hidden;
-    margin-bottom: 100px;
 }
 
 .header-2 {

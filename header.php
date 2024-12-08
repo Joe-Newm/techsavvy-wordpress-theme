@@ -20,8 +20,12 @@ wp_head();
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light container">
-  <a class="navbar-brand" href="./index.html">
-    <img id="logo" src="/wp-content/themes/techsavvy-wordpress-theme/assets/images/horizontal-logo.svg" alt="techsavvy logo">
+      <a class="navbar-brand" href="./index.html">
+<?php
+	if (function_exists('the_custom_logo')) {
+	        the_custom_logo();
+	} 
+?>
   </a>
   <!-- Hamburger Button -->
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -48,7 +52,7 @@ wp_head();
       <a class="nav-item nav-link" href="./contact">Contact Us</a>
 	  <a class="nav-item nav-link" href="./careers">Careers</a>
 	  -->
-      <button class="btn btn-primary" style="gap: 10px;" type="button" onclick="window.location.href='tel:+13188840844';">
+      <button class="btn btn-primary" style="gap: 10px; margin-top: 9px; margin-left: 20px;" type="button" onclick="window.location.href='tel:+13188840844';">
         <i class="bi bi-telephone-fill" style="font-size: 1.5em"></i>(318) 884-0844
       </button>
     </div>
