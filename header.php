@@ -30,12 +30,25 @@ wp_head();
   </button>
   <!-- Menu -->
   <div class="collapse navbar-collapse" id="navbarNav">
-    <div class="navbar-nav ml-auto">
+	<div class="navbar-nav ml-auto">
+
+<?php
+	  wp_nav_menu(
+	  array(
+	  'menu' => 'primary',
+	  'container' => '',
+	  'theme_location' => 'primary',
+	  'items_wrap' => '%3$s'
+	  )
+	  );
+	  ?>
+      <!--
       <a class="nav-item nav-link" href="./services.html">Services</a>
       <a class="nav-item nav-link" href="./about.html">About Us</a>
       <a class="nav-item nav-link" href="./contact">Contact Us</a>
-      <a class="nav-item nav-link" href="./careers">Careers</a>
-      <button class="btn btn-primary" type="button" onclick="window.location.href='tel:+13188840844';">
+	  <a class="nav-item nav-link" href="./careers">Careers</a>
+	  -->
+      <button class="btn btn-primary" style="gap: 10px;" type="button" onclick="window.location.href='tel:+13188840844';">
         <i class="bi bi-telephone-fill" style="font-size: 1.5em"></i>(318) 884-0844
       </button>
     </div>

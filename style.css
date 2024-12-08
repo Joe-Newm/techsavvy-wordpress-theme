@@ -279,3 +279,46 @@ iframe {
     background-color: white !important;
     color: black !important;
 }
+
+
+/* sub menu drop down for nav */
+
+/* Base menu styles */
+/* Style the parent menu item */
+.menu-item>a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Submenu - hide by default */
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 65%;
+    padding: 0;
+    list-style: none;
+    z-index: 1000;
+}
+
+/* Style submenu items */
+.sub-menu .menu-item {
+    display: block;
+    /* Stack submenu items vertically */
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.sub-menu .menu-item>a {
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Show submenu on hover */
+.menu-item:hover>.sub-menu {
+    display: block;
+}

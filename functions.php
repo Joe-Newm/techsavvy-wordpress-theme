@@ -23,6 +23,18 @@ function techsavvy_enqueue_scripts() {
 }
 add_action('wp_enqueue_scripts', 'techsavvy_enqueue_scripts');
 
+////////////////////////////////////// menues ///////////////////////////////////////////
+
+
+function techsavvy_menus() {
+    $locations = array(
+        'primary' => "Desktop primary",
+        'footer' => "footer menu items"
+    );
+    register_nav_menus($locations);
+}
+add_action('init', 'techsavvy_menus');
+
 
 ////////////////////////////////////// customization /////////////////////////////////////////
 
