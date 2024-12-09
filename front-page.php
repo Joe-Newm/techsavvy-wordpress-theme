@@ -31,7 +31,7 @@ get_header();
           <h3 class="fw-bold">IT Services</h3>
           <p>At Tech Savvy, we are your IT department, just as if you had a team of IT professionals in-house. We make
             it work.</p>
-          <p><a class="btn btn-secondary" href="#">View Details</a></p>
+<p><a class="btn btn-secondary" href="<?php echo get_permalink(107);?>">View Details</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4 marketing">
           <i class="bd-placeholder-img rounded-circle bi bi-fingerprint" role="img" focusable="false">
@@ -40,14 +40,14 @@ get_header();
           <p>Our approach to cybersecurity services significantly increases our partners security and awareness, leading
             to a much stronger security posture and much lower risk.
           </p>
-          <p><a class="btn btn-secondary" href="#">View Details</a></p>
+<p><a class="btn btn-secondary" href="<?php echo get_permalink(109);?>">View Details</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4 marketing">
           <i class="bd-placeholder-img rounded-circle bi bi-cloud-check" role="img" focusable="false">
           </i>
           <h3 class="fw-bold">Cloud & Backup</h3>
           <p>Store and share data easily through cloud services.</p>
-          <p><a class="btn btn-secondary" href="#">View Details</a></p>
+<p><a class="btn btn-secondary" href="<?php echo get_permalink(111);?>">View Details</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4 marketing">
@@ -55,7 +55,7 @@ get_header();
           </i>
           <h3 class="fw-bold">Hardware Repair / Installation</h3>
           <p>Use new hardware to meet your organization's goals.</p>
-          <p><a class="btn btn-secondary" href="#">View Details</a></p>
+<p><a class="btn btn-secondary" href="<?php echo get_permalink(113);?>">View Details</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4 marketing">
@@ -63,7 +63,7 @@ get_header();
           </i>
           <h3 class="fw-bold">Help Desk</h3>
           <p>Get local IT support whenever and wherever you need it.</p>
-          <p><a class="btn btn-secondary" href="#">View Details</a></p>
+<p><a class="btn btn-secondary" href="<?php echo get_permalink(115);?>">View Details</a></p>
         </div>
       </div>
 

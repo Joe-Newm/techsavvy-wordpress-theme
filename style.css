@@ -14,6 +14,7 @@ Author: Joseph Newman
     --primary-yellow: #FFA904;
     --primary-off-white: #e3e3e3;
     --secondary-off-white: #f5f5f5;
+    --primary-black: #212529;
 }
 
 *,
@@ -29,8 +30,10 @@ main {
     margin-bottom: 100px;
 }
 
+
 body {
     font-family: 'roboto', 'Arial Narrow', Arial, sans-serif !important;
+    color: var(--primary-black)
 }
 
 nav {
@@ -67,7 +70,7 @@ h3 {
 }
 
 nav a {
-    color: inherit !important;
+    color: var(--primary-black) !important;
     text-decoration: none !important;
     transition: color 0.3s ease;
 }
@@ -143,6 +146,7 @@ nav a:hover {
     background-color: black;
     overflow: hidden;
 }
+
 
 .header-2 {
     height: 300px;
@@ -313,15 +317,15 @@ iframe {
     padding: 0;
     list-style: none;
     z-index: 1000;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
 }
 
 /* Style submenu items */
 .sub-menu .menu-item {
     display: block;
     /* Stack submenu items vertically */
-    background-color: white;
-    border: 1px solid lightgray;
-    border-radius: 5px;
 }
 
 .sub-menu .menu-item>a {
@@ -334,4 +338,8 @@ iframe {
 /* Show submenu on hover */
 .menu-item:hover>.sub-menu {
     display: block;
+}
+
+.sub-menu>.menu-item:hover {
+    background-color: var(--secondary-off-white);
 }

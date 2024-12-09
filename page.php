@@ -4,7 +4,7 @@ get_header();
 <header>
   <div class="header-2">
     <div class="container">
-      <h1><?php the_title(); ?></h1>
+      <h1 style="border-bottom: 2px solid var(--primary-yellow)"><?php the_title(); ?></h1>
     </div>
   </div>
 </header>
@@ -58,12 +58,31 @@ if (is_page("Services")): ?>
   </div>
 <?php endif; ?>
 
-
-<main class="container">
+<main class="container px-10">
 <?php
 the_content();
-?>
+  ?>
+
+      <div class="container" style="margin-top: 100px;">
+        <div class="cta-container">
+          <h2 style="text-align: center">Contact us today!</h2>
+          <p style="text-align: center">To find out more about our full range of IT support services, call or message
+            us today!</p>
+          <div class="d-flex flex-column flex-lg-row" style="gap: 20px">
+            <button style="display: flex; justify-content: center; gap: 10px;" class="btn btn-primary btn-dark"
+              type="button" onclick="window.location.href='mailto:support@techsavvy.llc';"><i
+                class="bi bi-envelope-fill" style="color: black; font-size: 1.5em"></i>support@techsavvy.llc</button>
+
+            <button style="display: flex; justify-content: center; gap: 10px;" class="btn btn-primary btn-dark"
+              type="button" onclick="window.location.href='tel:+13188840844';">
+              <i class="bi bi-telephone-fill" style="color: black; font-size: 1.5em"></i>(318) 884-0844
+            </button>
+          </div>
+        </div>
+      </div>
 </main>
+
+
 
 <?php
 get_footer();
