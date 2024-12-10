@@ -58,6 +58,42 @@ if (is_page("Services")): ?>
   </div>
 <?php endif; ?>
 
+<?php
+if(is_page('Contact Us')): ?>
+  <section id="section_5" class="tsB tsT_plugin  tsflex col_1 no_sizing small not_well ">
+<div class="tsR">
+
+<article class="tsI item_1 center nHero nImg nHds nDsc nHd nShd nLk map-plugin" data-aos="fade-up" data-aos-once="true"><div id="_the_map_wrapper" class="_the_map _is_plugin" slug="_the_map" args="post_id=573561">
+                <div class="b2b-location wide">
+	<iframe class="b2b-location-canvas" frameborder="0" style="border:0" allowfullscreen="" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBbV1cZmBGWZltKHJMZrKCqen-6fFtKyz4&amp;q=112+Professional+Drive%2C%2CWest+Monroe%2CLA%2C71291%2C">
+	</iframe>
+	<!-- <div class="b2b-location-nav">
+		<img class="b2b-location-nav-up" src="img/b2b-maps-wide-nav-up.png"/><img class="b2b-location-nav-down" src="img/b2b-maps-wide-nav-down.png"/>	</div> -->
+	<div class="b2b-location-items-container">
+		<div class="b2b-location-items show-details">
+			<ul style="display: block; top: 0px;">
+								<li class="tsi-address show-details" data-iframe-src-query="&amp;q=112+Professional+Drive%2C%2CWest+Monroe%2CLA%2C71291%2C" data-address="112 Professional Drive, , West Monroe, LA, 71291" data-index="1" style="display: block;">
+					<div class="b2b-location-basic-info">
+						<div class="b2b-location-hover-box"></div>						<h3>Tech Savvy, LLC</h3>
+            <p>
+
+              112 Professional Drive<br>West Monroe, LA 71291
+            </p>
+												<a class="b2b-location-get-directions color_bodylinks" href="https://maps.google.com/maps?daddr=112 Professional Drive, West Monroe, LA 71291&amp;hl=en" target="_blank">GET DIRECTIONS</a>
+												<a class="b2b-location-expand-icon" href="javascript:void(0);" title="See Details"></a>
+					</div>
+					<p class="b2b-location-detail-info" style="display: block;">
+					<br><span class="b2b-location-h2">Call Us</span><br><a href="tel:(318) 884-0844"><b>Phone:</b> (318) 884-0844</a><br>                        													<br><span class="b2b-location-h2">Hours</span><br>
+							<b>Mon: </b>8:00AM-5:00PM<br><b>Tue: </b>8:00AM-5:00PM<br><b>Wed: </b>8:00AM-5:00PM<br><b>Thu: </b>8:00AM-5:00PM<br><b>Fri: </b>8:00AM-5:00PM<br>					</p>				</li>
+							</ul>
+		</div>
+	</div>
+</div>
+
+                </div></article></div></section>
+
+<?php endif; ?>
+
 <main class="container px-10">
 <?php
 the_content();
