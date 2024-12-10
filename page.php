@@ -8,8 +8,13 @@ get_header();
     </div>
   </div>
 </header>
-<?php 
-if (is_page("Services")): ?>
+
+
+
+
+<!-- ////////////////////////////////////// Services Page ////////////////////////////////////// -->
+
+<?php if (is_page("Services")): ?>
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
@@ -58,8 +63,11 @@ if (is_page("Services")): ?>
   </div>
 <?php endif; ?>
 
-<?php
-if(is_page('Contact Us')): ?>
+
+
+<!-- /////////////////////////////// contact page //////////////////////////////// -->
+
+<?php if(is_page('Contact Us')): ?>
   <section id="section_5" class="tsB tsT_plugin  tsflex col_1 no_sizing small not_well ">
 <div class="tsR">
 
@@ -94,10 +102,15 @@ if(is_page('Contact Us')): ?>
 
 <?php endif; ?>
 
+
+
+
+<!-- ////////////////////////////////////////// All other pages //////////////////////////////////////// -->
+
+<?php if(!is_page('Services') && !is_page('Contact Us')): ?>
 <main class="container px-10">
-<?php
-the_content();
-  ?>
+
+<?php the_content(); ?>
 
       <div class="container" style="margin-top: 100px;">
         <div class="cta-container">
@@ -117,6 +130,7 @@ the_content();
         </div>
       </div>
 </main>
+<?php endif ?>
 
 
 
