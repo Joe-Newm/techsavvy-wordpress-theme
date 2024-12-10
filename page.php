@@ -68,6 +68,7 @@ get_header();
 <!-- /////////////////////////////// contact page //////////////////////////////// -->
 
 <?php if(is_page('Contact Us')): ?>
+<div class="container">
   <section id="section_5" class="tsB tsT_plugin  tsflex col_1 no_sizing small not_well ">
 <div class="tsR">
 
@@ -98,8 +99,7 @@ get_header();
 	</div>
 </div>
 
-                </div></article></div></section>
-
+                </div></article></div></section></div>
 <?php endif; ?>
 
 
