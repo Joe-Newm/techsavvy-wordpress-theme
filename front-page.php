@@ -92,6 +92,10 @@ get_header();
         </div>
       </div>
 
+
+<!-- Begin SmileBack Website Widget v4.0 --><script id="smileback-widget">if(!sbWidgetSettings) var sbWidgetSettings = {};sbWidgetSettings = { snippetVersion: "v4.0", backgroundColor: "[[backgroundColor]]", scoreColor: "#9d3aff", textColor01: "#00054d", widgetType: "reviewsWidget", widgetStyle: "", border: "no", dropShadow: "yes", lang: "en", showAuthor: "true", showCompany: "true", showDate: "", scrollType: "autoScroll", includeCSAT: "true", includeNPS: "[[includeNPS]]", app: "81784b7f238e4d52833b91054028a851",};(function(d, s, sid) {var js, ip = d.getElementsByTagName(s)[0];if (d.getElementById(sid)) return;js = d.createElement(s);js.id = sid;js.src = "https://d2ybfz51gt58l0.cloudfront.net/configuration/widget/script/v4/widget.js?widgetType=reviewsWidget&includeCSAT=true&includeNPS=[[includeNPS]]";ip.parentNode.insertBefore(js, ip);}(document, "script", "smileback-widget-loader"));</script><!-- End SmileBack Website Widget --->
+
+
       <div class="container">
         <div class="cta-container">
           <h2 style="text-align: center">Contact us today!</h2>

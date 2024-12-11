@@ -15,7 +15,6 @@ get_header();
 <!-- ////////////////////////////////////// Services Page ////////////////////////////////////// -->
 
 <?php if (is_page("Services")): ?>
-    <div class="container marketing">
 
           <!-- Marketing messaging and featurettes
   ================================================== -->
@@ -64,6 +63,7 @@ get_header();
     <p>Get local IT support whenever and wherever you need it.</p>
 <p><a class="btn btn-secondary" href="<?php echo get_permalink(115);?>">View Details</a></p>
   </div>
+</div>
 </div>
 <?php endif; ?>
 
