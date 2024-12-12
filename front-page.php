@@ -21,6 +21,7 @@ get_header();
     <!-- Marketing messaging and featurettes
   ================================================== -->
 
+
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
@@ -70,7 +71,7 @@ get_header();
 
       
 <div style="margin-bottom: 150px">
-<!-- Begin SmileBack Website Widget v4.0 --><script id="smileback-widget">if(!sbWidgetSettings) var sbWidgetSettings = {};sbWidgetSettings = { snippetVersion: "v4.0", backgroundColor: "[[backgroundColor]]", scoreColor: "#FFA904", textColor01: "#212529", widgetType: "reviewsWidget", widgetStyle: "", border: "no", dropShadow: "yes", lang: "en", showAuthor: "true", showCompany: "true", showDate: "", scrollType: "autoScroll", includeCSAT: "true", includeNPS: "[[includeNPS]]", app: "81784b7f238e4d52833b91054028a851",};(function(d, s, sid) {var js, ip = d.getElementsByTagName(s)[0];if (d.getElementById(sid)) return;js = d.createElement(s);js.id = sid;js.src = "https://d2ybfz51gt58l0.cloudfront.net/configuration/widget/script/v4/widget.js?widgetType=reviewsWidget&includeCSAT=true&includeNPS=[[includeNPS]]";ip.parentNode.insertBefore(js, ip);}(document, "script", "smileback-widget-loader"));</script><!-- End SmileBack Website Widget --->
+<!-- Begin SmileBack Website Widget v4.0 --><script id="smileback-widget">if(!sbWidgetSettings) var sbWidgetSettings = {};sbWidgetSettings = { snippetVersion: "v4.0", backgroundColor: "#212529", scoreColor: "#FFA904", textColor01: "#ffffff", widgetType: "reviewsWidget", widgetStyle: "", border: "no", dropShadow: "yes", lang: "en", showAuthor: "true", showCompany: "true", showDate: "", scrollType: "autoScroll", includeCSAT: "true", includeNPS: "[[includeNPS]]", app: "81784b7f238e4d52833b91054028a851",};(function(d, s, sid) {var js, ip = d.getElementsByTagName(s)[0];if (d.getElementById(sid)) return;js = d.createElement(s);js.id = sid;js.src = "https://d2ybfz51gt58l0.cloudfront.net/configuration/widget/script/v4/widget.js?widgetType=reviewsWidget&includeCSAT=true&includeNPS=[[includeNPS]]";ip.parentNode.insertBefore(js, ip);}(document, "script", "smileback-widget-loader"));</script><!-- End SmileBack Website Widget --->
 </div>
 
 
