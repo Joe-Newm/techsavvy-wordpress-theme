@@ -1,41 +1,34 @@
  <div class="bg-dark" style="margin-top: 100px;"> 
     <div class="container">
       <footer class="py-5 text-light"> 
-        <div class="row">
-          <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
+       <div class="row gap-5">
+         <div class="col-md-4 mb-3 text-break">
+
+<?php
+	if (function_exists('the_custom_logo')) {
+	        the_custom_logo();
+	} 
+           ?>
+           <p></p>
+           <p>
+At Techsavvy, we’re passionate about empowering businesses through innovative IT solutions. Located in West Monroe, Louisiana, we bring 30 years of experience to local IT services to the table. Our mission is to provide exceptional IT services that help businesses thrive in today’s digital landscape.
+           </p>
+         </div>
+         <div class="col-6 col-md-3 mb-3">
+           
+            <h5>Services</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+              <li class="nav-item mb-2" style="text-decoration: underline;"><a href="#" class="nav-link p-0 text-light">IT Services</a></li>
+              <li class="nav-item mb-2"style="text-decoration: underline;"><a href="#" class="nav-link p-0 text-light">Cloud & Backup</a></li>
+              <li class="nav-item mb-2"style="text-decoration: underline;"><a href="#" class="nav-link p-0 text-light">Cyber Security</a></li>
+              <li class="nav-item mb-2"style="text-decoration: underline;"><a href="#" class="nav-link p-0 text-light">Hardware Repair / Installation</a></li>
+              <li class="nav-item mb-2"style="text-decoration: underline;"><a href="#" class="nav-link p-0 text-light">Help Desk</a></li>
             </ul>
           </div>
 
-          <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
-            </ul>
-          </div>
+       
 
-          <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
-            </ul>
-          </div>
-
-          <div class="col-md-5 offset-md-1 mb-3">
+          <div class="col-md-4  mb-3">
             <div>
               <h5>Contact Us</h5>
               <div class="d-flex flex-column w-100 gap-2">
