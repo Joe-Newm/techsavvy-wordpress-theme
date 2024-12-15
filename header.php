@@ -42,7 +42,8 @@ wp_head();
 	  'menu' => 'primary',
 	  'container' => '',
 	  'theme_location' => 'primary',
-	  'items_wrap' => '%3$s'
+	  'items_wrap' => '%3$s',
+'walker' => new My_Custom_Walker_Nav_Menu()
 	  )
 	  );
 	  ?>

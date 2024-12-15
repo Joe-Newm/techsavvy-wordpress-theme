@@ -47,6 +47,10 @@ nav {
     width: 100vw !important;
 }
 
+.bi-caret-down-fill {
+    font-size: 12px !important;
+}
+
 h1 {
     font-weight: bold !important;
     font-size: 4em !important;
@@ -264,10 +268,12 @@ iframe {
 }
 
 .btn.btn-secondary {
-    background-color: var(--primary-yellow);
+    background-color: var(--primary-yellow) !important;
     border: none;
 }
 
+
+.wp-block-button__link,
 .btn {
     display: flex !important;
     height: 45px;
@@ -278,8 +284,10 @@ iframe {
     font-weight: 800 !important;
     color: black !important;
     justify-content: center;
+    border-radius: 5px !important;
 }
 
+.wp-block-button__link,
 .btn.btn-primary {
     background-color: var(--primary-yellow);
     border: none;
@@ -287,9 +295,11 @@ iframe {
 }
 
 
+.wp-block-button__link:hover,
 .btn:hover {
     background-color: black !important;
     color: white !important;
+    transition: background-color 0.3s ease;
 }
 
 .btn.btn-dark:hover {
@@ -311,7 +321,8 @@ iframe {
 
 /* Submenu - hide by default */
 .sub-menu {
-    display: none;
+    opacity: 0;
+    visibility: hidden;
     position: absolute;
     top: 65%;
     padding: 0;
@@ -337,9 +348,30 @@ iframe {
 
 /* Show submenu on hover */
 .menu-item:hover>.sub-menu {
-    display: block;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 .sub-menu>.menu-item:hover {
     background-color: var(--secondary-off-white);
+}
+
+
+.reviewsWidget .reviews .arrow.left {
+    border: solid var(--primary-black) !important;
+    border-width: 0 2px 2px 0 !important;
+}
+
+.reviewsWidget .reviews .arrow.right {
+    border: solid var(--primary-black) !important;
+    border-width: 0 2px 2px 0 !important;
+}
+
+.b2b-location-items-container {
+    background-color: var(--primary-black);
+    width: 300px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }

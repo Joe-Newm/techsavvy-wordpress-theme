@@ -72,7 +72,7 @@ get_header();
 <!-- /////////////////////////////// contact page //////////////////////////////// -->
 
 <?php if(is_page('Contact Us')): ?>
-<div class="container">
+<div class="container d-flex flex-column flex-md-row gap-5">
   <section id="section_5" class="tsB tsT_plugin  tsflex col_1 no_sizing small not_well ">
 <div class="tsR">
 
@@ -85,7 +85,7 @@ get_header();
 	<div class="b2b-location-items-container">
 		<div class="b2b-location-items show-details">
 			<ul style="display: block; top: 0px;">
-								<li class="tsi-address show-details" data-iframe-src-query="&amp;q=112+Professional+Drive%2C%2CWest+Monroe%2CLA%2C71291%2C" data-address="112 Professional Drive, , West Monroe, LA, 71291" data-index="1" style="display: block;">
+					<li class="tsi-address show-details" data-iframe-src-query="&amp;q=112+Professional+Drive%2C%2CWest+Monroe%2CLA%2C71291%2C" data-address="112 Professional Drive, , West Monroe, LA, 71291" data-index="1" style="display: block;">
 					<div class="b2b-location-basic-info">
 						<div class="b2b-location-hover-box"></div>						<h3>Tech Savvy, LLC</h3>
             <p>
@@ -103,7 +103,18 @@ get_header();
 	</div>
 </div>
 
-                </div></article></div></section></div>
+      </div>
+
+      </article>
+
+    </div>
+
+  </section>
+
+<div>
+  <?php the_content(); ?>
+</div>
+</div>
 <?php endif; ?>
 
 

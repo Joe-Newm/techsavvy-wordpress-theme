@@ -40,6 +40,32 @@ function techsavvy_menus() {
 add_action('init', 'techsavvy_menus');
 
 
+
+class My_Custom_Walker_Nav_Menu extends Walker_Nav_Menu {
+  function start_el(&$output, $item, $depth = 0, $args = array(), $id = 0) {
+    $classes = empty($item->classes) ? array() : (array) $item->classes;
+
+    // Check if the menu item title is "Services" and add a custom class
+    if ($item->title == 'Services') {
+      $classes[] = 'menu-item-has-arrow';
+    }
+
+    $class_names = join(' ', apply_filters('nav_menu_css_class', array_filter($classes), $item));
+
+    $output .= '<li id="menu-item-' . $item->ID . '" class="' . esc_attr($class_names) . '">';
+    $output .= '<a href="' . esc_attr($item->url) . '">' . apply_filters('the_title', $item->title, $item->ID);
+
+    // Append the icon HTML for the "Services" item
+    if ($item->title == 'Services') {
+      $output .= ' <i class="bi bi-caret-down-fill"></i>';
+    }
+
+    $output .= '</a>';
+  }
+}
+
+
+
 ////////////////////////////////////// customization /////////////////////////////////////////
 
 
