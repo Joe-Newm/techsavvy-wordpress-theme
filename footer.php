@@ -55,19 +55,11 @@ At Techsavvy, we’re passionate about empowering businesses through innovative 
           </div>
         </div>
 
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-          <p>© 2024 Company, Inc. All rights reserved.</p>
-          <ul class="list-unstyled d-flex">
-            <li class="ms-3"><a class="link-light" href="#"><svg class="bi" width="24" height="24">
-                  <use xlink:href="#twitter"></use>
-                </svg></a></li>
-            <li class="ms-3"><a class="link-light" href="#"><svg class="bi" width="24" height="24">
-                  <use xlink:href="#instagram"></use>
-                </svg></a></li>
-            <li class="ms-3"><a class="link-light" href="#"><svg class="bi" width="24" height="24">
-                  <use xlink:href="#facebook"></use>
-                </svg></a></li>
-          </ul>
+       <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+         <div>
+         <p style="margin-bottom: 0;">Copyright © 2024 Tech Savvy, LLC, all rights reserved.</p>
+        <p>112 Professional Drive,  West Monroe, LA 71291   (318) 884-0844</p>
+           </div>
         </div>
       </footer>
     </div>
