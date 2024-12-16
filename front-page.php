@@ -70,7 +70,8 @@ get_header();
 
 
       
-<div style="margin-bottom: 150px">
+    <div class="flex-column justify-content-center align-items-center" style="margin-bottom: 150px">
+      <h2 style="text-align: center;">What Our Clients Say About Tech Savvy</h2>
 <!-- Begin SmileBack Website Widget v4.0 --><script id="smileback-widget">if(!sbWidgetSettings) var sbWidgetSettings = {};sbWidgetSettings = { snippetVersion: "v4.0", backgroundColor: "#212529", scoreColor: "#FFA904", textColor01: "#e3e3e3", widgetType: "reviewsWidget", widgetStyle: "", border: "no", dropShadow: "yes", lang: "en", showAuthor: "true", showCompany: "true", showDate: "", scrollType: "autoScroll", includeCSAT: "true", includeNPS: "[[includeNPS]]", app: "81784b7f238e4d52833b91054028a851",};(function(d, s, sid) {var js, ip = d.getElementsByTagName(s)[0];if (d.getElementById(sid)) return;js = d.createElement(s);js.id = sid;js.src = "https://d2ybfz51gt58l0.cloudfront.net/configuration/widget/script/v4/widget.js?widgetType=reviewsWidget&includeCSAT=true&includeNPS=[[includeNPS]]";ip.parentNode.insertBefore(js, ip);}(document, "script", "smileback-widget-loader"));</script><!-- End SmileBack Website Widget --->
 </div>
 
@@ -98,18 +99,23 @@ get_header();
           </div>
           </div>
         </div>
-      </div>
+    </div>
 
 
-      <div class="container">
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+      <h2 style="text-align:center;">Trusted Partners & Affiliates</h2>
+      <p></p>
+      <p></p>
+      <img src="wp-content/themes/techsavvy-wordpress-theme/assets/images/spongeee.png" alt="various logos of companies" style="width: auto;" class="img-fluid">
+    </div>
+
+
+      <div class="container" style="margin-top: 150px;">
         <div class="cta-container">
           <h2 style="text-align: center">Contact us today!</h2>
           <p style="text-align: center">To find out more about our full range of IT support services, call or message
             us today!</p>
-          <div class="d-flex flex-column flex-lg-row" style="gap: 20px">
-            <button style="display: flex; justify-content: center; gap: 10px;" class="btn btn-primary btn-dark"
-              type="button" onclick="window.location.href='mailto:support@techsavvy.llc';"><i
-                class="bi bi-envelope-fill" style="color: black; font-size: 1.5em"></i>support@techsavvy.llc</button>
+          <div class="d-flex flex-column flex-lg-row" style="gap: 20px"> <button style="display: flex; justify-content: center; gap: 10px;" class="btn btn-primary btn-dark" type="button" onclick="window.location.href='mailto:support@techsavvy.llc';"><i class="bi bi-envelope-fill" style="color: black; font-size: 1.5em"></i>support@techsavvy.llc</button>
 
             <button style="display: flex; justify-content: center; gap: 10px;" class="btn btn-primary btn-dark"
               type="button" onclick="window.location.href='tel:+13188840844';">

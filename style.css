@@ -127,6 +127,7 @@ nav a:hover {
         height: 25ch !important;
     }
 
+
 }
 
 
@@ -368,9 +369,14 @@ iframe {
     border-width: 0 2px 2px 0 !important;
 }
 
+
+.b2b-location-canvas {
+    width: 350px;
+}
+
 .b2b-location-items-container {
     background-color: var(--primary-black);
-    width: 300px;
+    width: 350px;
     color: white;
     padding-top: 25px;
     padding-bottom: 25px;

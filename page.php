@@ -120,9 +120,31 @@ get_header();
 
 
 
+<!-- ////////////////////////////////////// careers //////////////////////////////////////// -->
+<?php if(is_page('Careers')): ?>
+<main class="container px-10">
+
+<?php the_content(); ?>
+
+      <div class="container" style="margin-top: 100px;">
+        <div class="cta-container">
+          <h2 style="text-align: center">Send us Your Resume!</h2>
+          <p style="text-align: center">Send us a message about yourself with your resume, and we will get back to you if we think you're a good fit!</p>
+          <div class="d-flex flex-column flex-lg-row" style="gap: 20px">
+            <button style="display: flex; justify-content: center; gap: 10px;" class="btn btn-primary btn-dark"
+              type="button" onclick="window.location.href='mailto:support@techsavvy.llc';"><i
+                class="bi bi-envelope-fill" style="color: black; font-size: 1.5em"></i>support@techsavvy.llc</button>
+
+          </div>
+        </div>
+      </div>
+</main>
+<?php endif; ?>
+
+
 <!-- ////////////////////////////////////////// All other pages //////////////////////////////////////// -->
 
-<?php if(!is_page('Services') && !is_page('Contact Us')): ?>
+<?php if(!is_page('Services') && !is_page('Contact Us') && !is_page('Careers')): ?>
 <main class="container px-10">
 
 <?php the_content(); ?>
