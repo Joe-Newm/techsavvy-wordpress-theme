@@ -18,11 +18,11 @@ At Techsavvy, we’re passionate about empowering businesses through innovative 
            
             <h5>Services</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2" style="text-decoration: underline;"><a href="#" class="nav-link p-0 text-light">IT Services</a></li>
-              <li class="nav-item mb-2"style="text-decoration: underline;"><a href="#" class="nav-link p-0 text-light">Cloud & Backup</a></li>
-              <li class="nav-item mb-2"style="text-decoration: underline;"><a href="#" class="nav-link p-0 text-light">Cyber Security</a></li>
-              <li class="nav-item mb-2"style="text-decoration: underline;"><a href="#" class="nav-link p-0 text-light">Hardware Repair / Installation</a></li>
-              <li class="nav-item mb-2"style="text-decoration: underline;"><a href="#" class="nav-link p-0 text-light">Help Desk</a></li>
+              <li class="nav-item mb-2" style="text-decoration: underline;"><a href="<?php echo get_permalink(107);?>" class="nav-link p-0 text-light">IT Services</a></li>
+              <li class="nav-item mb-2"style="text-decoration: underline;"><a href="<?php echo get_permalink(109);?>" class="nav-link p-0 text-light">Cyber Security</a></li>
+              <li class="nav-item mb-2"style="text-decoration: underline;"><a href="<?php echo get_permalink(111);?>" class="nav-link p-0 text-light">Cloud & Backup</a></li>
+              <li class="nav-item mb-2"style="text-decoration: underline;"><a href="<?php echo get_permalink(113);?>" class="nav-link p-0 text-light">Hardware Repair / Installation</a></li>
+              <li class="nav-item mb-2"style="text-decoration: underline;"><a href="<?php echo get_permalink(115);?>" class="nav-link p-0 text-light">Help Desk</a></li>
             </ul>
           </div>
 
