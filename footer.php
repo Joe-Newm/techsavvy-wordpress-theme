@@ -11,7 +11,7 @@
            ?>
            <p></p>
            <p>
-At Techsavvy, we’re passionate about empowering businesses through innovative IT solutions. Located in West Monroe, Louisiana, we bring 30 years of experience to local IT services to the table. Our mission is to provide exceptional IT services that help businesses thrive in today’s digital landscape.
+At Techsavvy, we’re passionate about empowering businesses through innovative IT solutions. Located in West Monroe, Louisiana, we bring 30 years of experience in local IT services to the table. Our mission is to provide exceptional IT services that help businesses thrive in today’s digital landscape.
            </p>
          </div>
          <div class="col-6 col-md-3 mb-3">
