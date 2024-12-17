@@ -69,7 +69,7 @@ h3 {
 }
 
 a {
-    color: var(--primary-yellow);
+    color: var(--primary-yellow) !important;
 }
 
 .marketing i {
