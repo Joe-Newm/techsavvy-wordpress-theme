@@ -68,6 +68,10 @@ h3 {
     font-size: 2em;
 }
 
+a {
+    color: var(--primary-yellow);
+}
+
 .marketing i {
     font-size: 3em;
     color: var(--primary-yellow);
