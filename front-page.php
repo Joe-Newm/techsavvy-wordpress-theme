@@ -12,7 +12,7 @@ get_header();
         </h1>
 <p class="p-hero"><?php echo esc_html(get_theme_mod('subheader_text_setting', 'Local people. Local support.')); ?></p>
         <button style="display: flex; justify-content: center; gap: 10px;" class="btn btn-primary btn-dark"
-          type="button" onclick="window.location.href='mailto:support@techsavvy.llc';">Get Support</button>
+          type="button" onclick="window.location.href='mailto:support@techsavvy.llc';">Submit a Ticket</button>
       </div>
     </div>
   </header>
