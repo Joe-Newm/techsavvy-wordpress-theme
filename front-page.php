@@ -4,7 +4,7 @@ get_header();
 
 <header class="video-container">
     <video preload="auto" autoplay="" loop="" muted="" name="media" class="tsI_vl">
-      <source src="wp-content/themes/techsavvy-wordpress-theme/assets/images/pexels-yan-krukov-7792546.mp4" type="video/mp4">
+      <source src="wp-content/themes/techsavvy-wordpress-theme/assets/images/7140928-uhd_3840_2160_24fps.mp4" type="video/mp4">
     </video>
     <div class="container">
       <div class="hero-text-container">
