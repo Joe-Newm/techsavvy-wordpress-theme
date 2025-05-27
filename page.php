@@ -132,8 +132,8 @@ get_header();
           <p style="text-align: center">Send us an email with your resume and tell us about yourself. We will get back to you if we think you're a good fit!</p>
           <div class="d-flex flex-column flex-lg-row" style="gap: 20px">
             <button style="display: flex; justify-content: center; gap: 10px;" class="btn btn-primary btn-dark"
-              type="button" onclick="window.location.href='mailto:support@techsavvy.llc';"><i
-                class="bi bi-envelope-fill" style="color: black; font-size: 1.5em"></i>support@techsavvy.llc</button>
+              type="button" onclick="window.location.href='mailto:info@techsavvy.llc';"><i
+                class="bi bi-envelope-fill" style="color: black; font-size: 1.5em"></i>info@techsavvy.llc</button>
 
           </div>
         </div>

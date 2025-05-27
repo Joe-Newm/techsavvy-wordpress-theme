@@ -8,7 +8,7 @@ get_header();
     </video>
     <div class="container">
       <div class="hero-text-container">
-        <h1 class="h1-hero"><?php echo esc_html(get_theme_mod('header_text_setting', 'We focus on your technology so you can focus on your business.')); ?>
+        <h1 class="h1-hero"><?php echo esc_html(get_theme_mod('header_text_setting', 'Bringing Enterprise IT Solutions with Hometown Service—Reliable, Scalable, and Built on Relationships')); ?>
         </h1>
 <p class="p-hero"><?php echo esc_html(get_theme_mod('subheader_text_setting', 'Local people. Local support.')); ?></p>
         <button style="display: flex; justify-content: center; gap: 10px;" class="btn btn-primary btn-dark"
